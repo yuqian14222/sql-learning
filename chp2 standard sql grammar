@@ -1,0 +1,9 @@
+1. 关键字/保留字：不能作为表名、列名（大写，人为规定）；+ 操作对象：数据库/表；
+  如：SELECT prod_name FROM prod_info;
+2. 语句类型
+    （1）DDL:数据定义语言，对象为数据库和表；
+        eg:CREATE, DROP, ALTER
+     (2)DML:数据操纵语言，对象为表中数据（单元格）；
+         eg:SELECT, INSERT, UPDATE, DELETE
+     (3)DCL:数据控制语言(使用权限高，常用为管理员）；
+        eg:COMMIT：执行, ROLLBACK:撤销
